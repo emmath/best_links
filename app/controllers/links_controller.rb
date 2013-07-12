@@ -1,6 +1,5 @@
 class LinksController < ApplicationController
-  # GET /links
-  # GET /links.json
+
   def index
     @links = Link.all(params[:id]).reverse
 
